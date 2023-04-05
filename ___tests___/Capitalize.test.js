@@ -1,4 +1,5 @@
-import  capitalize  from "./task4";
+const capitalize = require('../capitalize.js');
+
 
 describe('capitalize', () => {
     it('should capitalize the first letter of a string', () => {
